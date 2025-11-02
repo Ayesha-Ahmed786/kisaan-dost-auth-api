@@ -1,1 +1,1 @@
-web: gunicorn -k uvicorn.workers.UvicornWorker urdu_farm_chatbot.main:app --bind 0.0.0.0:$PORT
+web: gunicorn -k uvicorn.workers.UvicornWorker urdu_farm_chatbot.urdu_farm_chatbot.main:app --bind 0.0.0.0:$PORT
